@@ -12,3 +12,17 @@ window.onclick = function(e){
     modal.style.display = "none"
   }
 }
+
+/*
+        OR USE an anonymous function TOGETHER WITH THE addEventListener method
+        const openBox = () => {
+    modal.style.display = "block";
+}
+
+const closeBox = () => {
+    modal.style.display = "none";
+}
+
+modalBtn.addEventListener("click", openBox);
+closeBtn.addEventListener("click", closeBox);
+*/
