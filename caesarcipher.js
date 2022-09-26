@@ -11,6 +11,8 @@
     by A, E would become B, and so on. 
     The method is named after Julius Caesar, 
     who used it in his private correspondence.
+    In the case of a rotation by 3, w, x, y and z 
+    would map to z, a, b and c.
 */
 s = 'abcdefghijklmnop';
 k = 5
