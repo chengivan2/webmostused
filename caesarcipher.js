@@ -23,7 +23,7 @@ function caesarCipher(s, k) {
     for (let i = 0; i < s.length; i++) {
         let code = s.charCodeAt(i);
         
-        if (code > 64 && code < 91) {
+        if (code > 64 && code < 91 ) { // 65 = A, 90 = Z
             let let_enc_code = code + k;
             while (let_enc_code > 90) {
                 let_enc_code = (let_enc_code - 90) + 64;
@@ -31,7 +31,7 @@ function caesarCipher(s, k) {
             
             res.push(String.fromCharCode(let_enc_code));
         }
-        else if (code > 96 && code < 123) {
+        else if (code > 96 && code < 123) { // 97 = a, 122 = z
             let let_enc_code = code + k;
             while (let_enc_code > 122) {
                 let_enc_code = (let_enc_code - 122) + 96;
